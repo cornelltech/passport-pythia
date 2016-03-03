@@ -1,0 +1,31 @@
+{
+  "name": "passport-pythia",
+  "version": "0.0.1",
+  "description": "Passport strategy designed for use with the Pythia PRF service.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cornelltech/passport-pythia.git"
+  },
+  "keywords": [
+    "passport",
+    "strategy",
+    "pythia",
+    "prf",
+    "password",
+    "hash"
+  ],
+  "author": "Cornell Tech Foundry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cornelltech/passport-pythia/issues"
+  },
+  "homepage": "https://github.com/cornelltech/passport-pythia#readme",
+  "dependencies": {
+    "passport-strategy": "^1.0.0",
+    "util": "^0.10.3"
+  }
+}
